@@ -1,0 +1,62 @@
+
+html,
+body,
+div {
+	height: 100%;
+}
+.slide-fade-enter-active {
+	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-leave-active {
+	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active до версии 2.1.8 */
+
+	{
+	opacity: 0;
+}
+
+
+.wildixPopup[data-v-5a558278] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.wildixLogo[data-v-5a558278] {
+	width: 360px;
+}
+button[data-v-5a558278] {
+	text-transform: uppercase;
+}
+
+
+.contentCall[data-v-855077ec],
+.infoCall[data-v-855077ec] {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.actionCall[data-v-855077ec] {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.actionCall>button[data-v-855077ec] {
+	margin: 0 4px;
+}
+.logo>img[data-v-855077ec] {
+	width: 120px;
+}
+.glyphicon[data-v-855077ec] {
+	font-size: 21px;
+}
+.actionCall button:last-child>span[data-v-855077ec] {
+	transform: rotate(135deg)
+}
+
+
+/*# sourceMappingURL=main.css.map*/

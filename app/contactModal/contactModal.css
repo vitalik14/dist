@@ -1,0 +1,109 @@
+
+.mandatory-fields[data-v-76dfef59] {
+	padding: 12px;
+	border: 1px solid #ebeff3;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #f5f7f9;
+}
+#contactForm[data-v-76dfef59] {
+	padding: 0 15px;
+	padding-bottom: 60px;
+}
+.modalFooter[data-v-76dfef59] {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 14px 0;
+	width: 100%;
+	background-color: #fff;
+	transform: translate3d(0, 0, 0);
+	z-index: 1;
+	border-top: 1px solid #cfd7df;
+	height: auto;
+}
+.requiredLabel[data-v-76dfef59]::after {
+	content: "*";
+	position: relative;
+	top: 2px;
+	font-size: 14px;
+	color: #d72d30;
+	padding-left: 2px;
+	font-weight: 700;
+}
+.fade-enter-active[data-v-76dfef59],
+.fade-leave-active[data-v-76dfef59] {
+	transition: opacity .5s;
+}
+.fade-enter[data-v-76dfef59],
+.fade-leave-to[data-v-76dfef59] {
+	opacity: 0;
+}
+.errorBlock[data-v-76dfef59] {
+	margin-bottom: 0;
+	margin-top: 6px;
+	padding: 6px;
+}
+
+
+html,
+body,
+div {
+	height: 100%;
+}
+.slide-fade-enter-active {
+	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-leave-active {
+	transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active до версии 2.1.8 */
+
+	{
+	opacity: 0;
+}
+
+
+.wildixPopup[data-v-5a558278] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.wildixLogo[data-v-5a558278] {
+	width: 360px;
+}
+button[data-v-5a558278] {
+	text-transform: uppercase;
+}
+
+
+.contentCall[data-v-855077ec],
+.infoCall[data-v-855077ec] {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.actionCall[data-v-855077ec] {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.actionCall>button[data-v-855077ec] {
+	margin: 0 4px;
+}
+.logo>img[data-v-855077ec] {
+	width: 120px;
+}
+.glyphicon[data-v-855077ec] {
+	font-size: 21px;
+}
+.actionCall button:last-child>span[data-v-855077ec] {
+	transform: rotate(135deg)
+}
+
+
+/*# sourceMappingURL=contactModal.css.map*/

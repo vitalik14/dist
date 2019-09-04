@@ -1,0 +1,28 @@
+{
+  "platform-version": "2.0",
+  "dependencies": {},
+  "product": {
+    "freshdesk": {
+      "location": {
+        "cti_global_sidebar": {
+          "url": "globalPopup/index.html",
+          "icon": "./static/icons/icon.svg"
+        },
+        "contact_sidebar": {
+          "url": "contactInfo/index.html",
+          "icon": "./static/icons/icon.svg"
+        },
+        "ticket_requester_info": {
+          "url": "contactInfo/index.html",
+          "icon": "./static/icons/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://httpbin.org",
+    "https://*.freshdesk.com",
+    "https://static.freshdev.io"
+  ],
+  "version": "0.0.1"
+}

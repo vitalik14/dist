@@ -1,0 +1,46 @@
+
+.contactInfo[data-v-1de606c2] {
+	padding-top: 14px;
+}
+.title[data-v-1de606c2] {
+	font-size: 12px;
+	color: #6f7c87;
+}
+.action[data-v-1de606c2] {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 4px;
+}
+.action a[data-v-1de606c2] {
+	font-size: 14px;
+	font-weight: 500;
+	color: #2c5cc5;
+}
+.action>div[data-v-1de606c2] {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+.btnCall[data-v-1de606c2] {
+	display: inline-flex;
+	align-items: center;
+}
+.wildixLogo[data-v-1de606c2] {
+	width: 24px;
+	padding-right: 4px;
+}
+.btnCall span[data-v-1de606c2] {
+	text-transform: uppercase;
+}
+.iconBtnCall[data-v-1de606c2] {
+	padding-right: 4px;
+}
+.emptyData[data-v-1de606c2] {
+	display: flex;
+}
+.emptyData .title[data-v-1de606c2] {
+	padding-left: 4px;
+}
+
+
+/*# sourceMappingURL=contactInfo.css.map*/
